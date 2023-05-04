@@ -8,35 +8,29 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
   <script src="theme.js"></script>
+  <script src="nav.js" defer></script>
   <title>Git50</title>
 </head>
-<body class="overflow-hidden d-flex flex-column">
-  <header class="flex-grow-0 flex-shrink-0">
-    <div class="navbar sticky-top bg-body-tertiary px-3 mb-3" id="navbar">
-      <div class="container">
-        <span class="navbar-brand">Git50</span>
-        <a href="https://github.com/727021/git50" class="btn btn-outline-secondary btn-gh" aria-label="View on GitHub">
-          <i class="bi bi-github" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-  </header>
-  <div class="container flex-grow-1 flex-shrink-1">
+<body class="overflow-hidden d-flex flex-column py-2">
+  <div class="container flex-grow-1 flex-shrink-1" id="mainContent">
     <div class="row">
       <aside class="col-4">
-        <nav id="navbar" class="h-100 flex-column align-items-stretch pe-4 border-end">
+        <nav id="navbar" class="h-100 d-flex flex-column align-items-stretch justify-content-between pe-4 border-end">
           <nav class="nav-pills nav flex-column">
             <a href="#install" class="nav-link">Installing Git</a>
             <a href="#setup" class="nav-link">Setting Up Git</a>
             <nav class="nav nav-pills flex-column">
-              <a href="private" class="nav-link">Private Email</a>
+              <a href="#private" class="nav-link">Private Email</a>
             </nav>
             <a href="" class="nav-link"></a>
             <a href="" class="nav-link"></a>
           </nav>
+          <a href="https://github.com/727021/git50" class="btn btn-outline-secondary btn-gh align-self-center" aria-label="View on GitHub">
+            <i class="bi bi-github" aria-hidden="true"></i>
+          </a>
         </nav>
       </aside>
-      <main class="col-8 overflow-auto h-100" data-bs-spy="scroll">
+      <main class="col-8 overflow-auto h-100">
         <h1>Git50 - Submitting CS50 Assignments with Git</h1>
         <p>Disclaimer: This guide is unofficial. While this guide is meant to help with submitting CS50 assignments, it is not maintained or endorsed by CS50 or Harvard staff.</p>
         <p>Already have git installed and set up? Skip to <a href="#submit">Submit Your CS50 Assignment</a>.</p>
