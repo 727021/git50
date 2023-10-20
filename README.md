@@ -50,7 +50,10 @@ Git is an incredibly useful tool, and is used very often in software development
 <details>
 <summary>Here are some resources I recommend for learning git:</summary>
 
-- <a href="https://learngitbranching.js.org/" target="_blank">Learn Git Branching</a> - An interactive, web-based git tutorial
+<ul>
+    <li><a href="https://learngitbranching.js.org/" target="_blank">Learn Git Branching</a> - An interactive, web-based git tutorial</li>
+    <li><a href="https://swcarpentry.github.io/git-novice/" target="_blank">Software Carpentry: Version Control with Git</a></li>
+</ul>
 
 (More git resources will be added here soon)
 </details>
