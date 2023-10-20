@@ -6,7 +6,7 @@ Already have git installed and set up? Skip to [Submit Your CS50 Assignment](#su
 
 ## Installing Git
 
-If you don't have git installed, get the download for your operating system from https://git-scm.com/downloads.
+If you don't have git installed, get the download for your operating system from [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
 Once the install has finished, you may need to restart VSCode before you can use it.
 
@@ -50,7 +50,7 @@ Git is an incredibly useful tool, and is used very often in software development
 <details>
 <summary>Here are some resources I recommend for learning git:</summary>
 
-- [Learn Git Branching](https://learngitbranching.js.org/) - An interactive, web-based git tutorial
+- <a href="https://learngitbranching.js.org/" target="_blank">Learn Git Branching</a> - An interactive, web-based git tutorial
 
 (More git resources will be added here soon)
 </details>
